@@ -13,7 +13,7 @@ public class Main {
 		Message2 message2 = new Message2();
 		message2.sayHello("신기해");
 		System.out.println("-----");
-		
+		System.out.println("git 변경");
 		// 다형성...인터페이스를 이용한 처리
 		// 어떤 객체던 인터페이스를 통해 파생된 객체면 인터페이스를 통한 처리가 가능
 		MessageInter inter;
