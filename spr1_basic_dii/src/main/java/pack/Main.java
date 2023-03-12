@@ -27,6 +27,6 @@ public class Main {
 		ApplicationContext context=new ClassPathXmlApplicationContext("init.xml");
 		MessageInter inter2=(MessageInter)context.getBean("mBean");	// 스프링이 만들어둔 객체를 읽어온 것
 		inter2.sayHello("홍길동3");
-		
+		System.out.println("this is main2");
 	}
 }
