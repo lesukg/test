@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="mBean" class="pack.Message2" /> <!-- 얘는 Singletone으로 생성됨 => 제어의 역전(프로그래머가 new 하지 않고있음) -->
+<!-- pack.Message1 mBean = new pack.Message(); 와 유사한 의미-->
+</beans>
